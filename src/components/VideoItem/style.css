@@ -1,0 +1,51 @@
+.video-box {
+  display: flex;
+  column-gap: 1rem;
+  padding: 0.4rem;
+}
+
+/* .video-box:not(:last-child) {
+  border-bottom: thin solid #ccc;
+} */
+.truncate {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.img-container {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  flex: 0 0 22rem;
+}
+
+.details h3,
+.details p {
+  margin-bottom: 0.5rem;
+}
+
+.details h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.details p {
+  font-size: 1.3rem;
+  color: #777;
+}
+
+.details .video-statistics p {
+  margin-bottom: 0;
+}

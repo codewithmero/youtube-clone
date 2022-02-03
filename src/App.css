@@ -1,0 +1,35 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  background: #f8f8f8;
+
+  position: relative;
+}
+
+.fluid-container {
+  padding: 8.5rem 0 2rem 0;
+  max-width: 88%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: var(--color-white);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  display: flex;
+  column-gap: 2rem;
+}

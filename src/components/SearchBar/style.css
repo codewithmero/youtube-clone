@@ -1,0 +1,41 @@
+.searchbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar-container form {
+  display: flex;
+
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+input[name="search"],
+button[type="submit"]{
+  height: 4rem;
+  border: none;
+}
+
+
+input[name="search"] {
+  width: 57rem;
+  border: 0.1rem solid #ccc;
+  box-shadow: inset 0 0.1rem 0.2rem #eee;
+  padding: 0.2rem 1.2rem;
+  font-size: 1.6rem;
+}
+
+input[name="search"]::placeholder {
+  font-size: 1.6rem;
+  color: #888;
+}
+
+button[type="submit"] {
+  height: 4rem;
+  border: 0.1rem solid #d3d3d3;
+  width: 6.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
